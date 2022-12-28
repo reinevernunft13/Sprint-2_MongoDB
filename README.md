@@ -17,8 +17,9 @@ In this unit, we'll be introduced to non-relational or 'NoSQL' databases through
 
 - Practice querying data in MongoDB by means of a test collection (see file 'restaurants.json').
 
-## 🚀 Usage instructions   
+## 🚀 Usage instructions  
 
+Here's specific information for testing my code in unit 2.3.
 ### Run the code
 
 - To execute the JS script, you'll need to run the following command for each .js file:

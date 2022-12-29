@@ -9,7 +9,7 @@ db.createCollection('products');
 db.createCollection('stores');
 
 // INSERTS DATA INTO CUSTOMERS COLLECTION
-db.customers.insert([
+db.customers.insertMany([
         {
             _id: ObjectId("000000000000000000000001"),
             f_name: 'Pepe',
@@ -70,8 +70,7 @@ db.customers.insert([
 );
 
 // INSERTS DATA INTO PRODUCTS COLLECTION
-db.products.insert(
-    [
+db.products.insertMany([
         {
             _id: ObjectId("000000000000000000000011"),
             item_type:'pizza',
@@ -156,11 +155,10 @@ db.products.insert(
             image: 'URL_10',
             value: 18
         },
-    ]
-);
+    ]);
 
 // INSERTS DATA INTO STORES COLLECTION
-db.stores.insert([
+db.stores.insertMany([
         {
             _id: ObjectId("000000000000000000000031"),
             address: {

@@ -1,4 +1,4 @@
-use('mongorestaurants');
+use('restaurants_db');
 
 //1. Escriu una consulta per mostrar tots els documents en la col·lecció Restaurants.
 db.restaurants.find({});

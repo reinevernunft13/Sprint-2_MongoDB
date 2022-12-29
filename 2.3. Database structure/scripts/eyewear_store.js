@@ -8,7 +8,7 @@ db.createCollection('suppliers');
 db.createCollection('customers');
 
 // INSERTS DATA INTO SUPPLIERS COLLECTION
-db.suppliers.insert([
+db.suppliers.insertMany([
         {
             _id: ObjectId("000000000000000000000001"),
             name: 'Cat-Glasses, S.L',
@@ -75,7 +75,7 @@ db.suppliers.insert([
         }
 ]);
 //INSERTS DATA INTO CUSTOMERS COLLECTION
-db.customers.insert([
+db.customers.insertMany([
         {
             _id: ObjectId("000000000000000000000011"),
             name: 'María Jiménez',

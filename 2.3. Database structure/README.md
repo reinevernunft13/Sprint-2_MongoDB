@@ -2,23 +2,26 @@
 
 ## Unit Tasks 📑
 
-- Design and create various sample database systems in MongoDB for managing an eyewear store and an online pizza store by means of a JavaScript script.
-- Add a diagram to help visualize the various database collections and specify their relationships.
+Design and create a sample database system in MongoDB for managing:
 
-## Usage instructions 👇
+1. an eyewear store;
+2. an online pizza store;
 
-This section of the project contains two folders: 
+Spefications: 
 
-- **diagrams** -> contains diagrams for each database;
-- **scripts** -> contains the JS scripts. 
+- Each database must be created by means of executing a JS script. 
+    -> see folder 'scripts'
+- Add a diagram to help visualize the various database collections and specify their relationships. 
+    -> see folder 'diagrams'
 
-### 🔥 Run the code 
+## Execute the code 🚀
 
-- To execute the JS scripts, use the MongoDB shell. Run the following command for each .js file:
+To execute the JS scripts, run the following command for each .js file:
 
 ````
 mongosh localhost:27017/test [my_jsfile.js]
 ````
+**NB:** Depending on your installation package & configuration, mongosh may not be available. Check official documentation for more information.
 
 This will do **three** things:
 
@@ -27,7 +30,7 @@ This will do **three** things:
 2. Connect to the 'my_DB_NAME' database.
 3. Populate the DB's collections with sample documents specified in the JS script.
 
-### 🤓 Testing the code
+## 🤓 Testing the code
 
 Database creation and document loading can be easily verified in various ways: 
 
@@ -38,8 +41,6 @@ Database creation and document loading can be easily verified in various ways:
 ````
 mongosh
 ````
-**NB:** Depending on your installation package, mongosh may not be available. Check official documentation.
-
 > **Step 2** - query the database and its collections using mongosh commands by selecting your database:
 
 ````
